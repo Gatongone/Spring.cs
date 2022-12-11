@@ -1,0 +1,16 @@
+C:\Code\CSharp\Spring\bin\Debug\net5.0\Spring.deps.json
+C:\Code\CSharp\Spring\bin\Debug\net5.0\Spring.dll
+C:\Code\CSharp\Spring\obj\Debug\net5.0\Spring.csproj.AssemblyReference.cache
+C:\Code\CSharp\Spring\obj\Debug\net5.0\Spring.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\CSharp\Spring\obj\Debug\net5.0\Spring.AssemblyInfoInputs.cache
+C:\Code\CSharp\Spring\obj\Debug\net5.0\Spring.AssemblyInfo.cs
+C:\Code\CSharp\Spring\obj\Debug\net5.0\Spring.csproj.CoreCompileInputs.cache
+C:\Code\CSharp\Spring\obj\Debug\net5.0\Spring.dll
+C:\Code\CSharp\Spring\Spring\obj\Debug\net5.0\Spring.csproj.AssemblyReference.cache
+C:\Code\CSharp\Spring\Spring\obj\Debug\net5.0\Spring.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\CSharp\Spring\Spring\obj\Debug\net5.0\Spring.AssemblyInfoInputs.cache
+C:\Code\CSharp\Spring\Spring\obj\Debug\net5.0\Spring.AssemblyInfo.cs
+C:\Code\CSharp\Spring\Spring\obj\Debug\net5.0\Spring.csproj.CoreCompileInputs.cache
+C:\Code\CSharp\Spring\Spring\obj\Debug\net5.0\Spring.dll
+C:\Code\CSharp\Spring\Spring\bin\Debug\net5.0\Spring.deps.json
+C:\Code\CSharp\Spring\Spring\bin\Debug\net5.0\Spring.dll

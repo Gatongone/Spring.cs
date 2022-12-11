@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HB+CeKnT1fXSdKV4hyKLQdS2ru3u3WyjTT2jfLo2Nym8sEg7QwyJROY4mmfHleV8iNyd1HRscvnufC2jDsjpDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Code\\CSharp\\Spring\\Spring.Tests\\Spring.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gatongone\\.nuget\\packages\\mono.cecil\\0.11.4\\mono.cecil.0.11.4.nupkg.sha512"
+  ],
+  "logs": []
+}

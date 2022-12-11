@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Spring.Example</RootNamespace>
+        <LangVersion>9</LangVersion>
+        <AnalysisLevel>5.0-all</AnalysisLevel>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+		<Using Remove="Microsoft.AspNetCore.Builder" />
+      <ProjectReference Include="..\Spring\Spring.csproj" />
+    </ItemGroup>
+
+</Project>

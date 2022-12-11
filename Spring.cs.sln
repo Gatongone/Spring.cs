@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring", "Spring\Spring.csproj", "{03F95F6C-806E-40A4-9C3F-F0CB13D33C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.Examples", "Spring.Examples\Spring.Examples.csproj", "{006028AB-D608-4AF8-A8F5-CC1814676758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.Tests", "Spring.Tests\Spring.Tests.csproj", "{8C0A949B-A743-4F62-AF70-E64D2F0382F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F95F6C-806E-40A4-9C3F-F0CB13D33C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F95F6C-806E-40A4-9C3F-F0CB13D33C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F95F6C-806E-40A4-9C3F-F0CB13D33C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F95F6C-806E-40A4-9C3F-F0CB13D33C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006028AB-D608-4AF8-A8F5-CC1814676758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006028AB-D608-4AF8-A8F5-CC1814676758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006028AB-D608-4AF8-A8F5-CC1814676758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006028AB-D608-4AF8-A8F5-CC1814676758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0A949B-A743-4F62-AF70-E64D2F0382F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0A949B-A743-4F62-AF70-E64D2F0382F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0A949B-A743-4F62-AF70-E64D2F0382F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0A949B-A743-4F62-AF70-E64D2F0382F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
