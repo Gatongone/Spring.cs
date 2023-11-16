@@ -140,12 +140,6 @@ namespace Spring
             mainModule.Types.Add(proxyDefinition);
             mainModule.ImportReference(proxyDefinition);
 
-            //Todo: Delete
-            using (var stream = new FileStream(@"C:\Cache\Spring.Runtime.dll", FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite))
-            {
-                s_SpringDynamicAssemblyDefinition.Write(stream);
-            }
-
             //Memory resident
             using (var stream = new MemoryStream())
             {
