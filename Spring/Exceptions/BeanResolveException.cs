@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace Spring
+namespace Spring;
+
+public class BeanResolveException : Exception
 {
-    public class BeanResolveException : Exception
-    {
-        public BeanResolveException(string msg) : base(msg) { }
-    }
+    public BeanResolveException(string msg) : base(msg) { }
 }

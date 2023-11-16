@@ -1,15 +1,13 @@
 using System;
 
-namespace Spring
-{
-    
-    [AttributeUsage(AttributeTargets.Method)]
+namespace Spring;
 
-    public class ProxyAttribute : Attribute
-    {
-        private string m_BeanName;
-        public ProxyAttribute(string beanName) => m_BeanName = beanName;
-        public ProxyAttribute(){}
-        public string GetBeanName() => m_BeanName;
-    }
+[AttributeUsage(AttributeTargets.Method)]
+
+public sealed class ProxyAttribute : Attribute
+{
+    private readonly string m_BeanName;
+    public ProxyAttribute(string beanName) => m_BeanName = beanName;
+    public ProxyAttribute(){}
+    public string GetBeanName() => m_BeanName;
 }

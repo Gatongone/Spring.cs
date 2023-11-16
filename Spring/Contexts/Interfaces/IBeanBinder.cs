@@ -1,24 +1,23 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Spring
+namespace Spring;
+
+public interface IBeanBinder
 {
-    public interface IBeanBinder
-    {
-        void Bind(string beanName, Type implementType);
+    void Bind(string beanName, Type implementType);
 
-        void Bind(Type beanType, Type implementType);
+    void Bind(Type beanType, Type implementType);
 
-        void Bind<TImplement>(string beanName) => Bind(beanName, typeof(TImplement));
+    void Bind<TImplement>(string beanName) => Bind(beanName, typeof(TImplement));
 
-        void Bind<TBean, TImplement>() => Bind(typeof(TBean), typeof(TImplement));
+    void Bind<TBean, TImplement>() => Bind(typeof(TBean), typeof(TImplement));
 
-        Type GetImplementType(string beanName);
+    Type GetImplementType(string beanName);
 
-        Type GetImplementType(Type beanType);
+    Type GetImplementType(Type beanType);
 
-        bool TryGetImplementType(string beanName, [MaybeNullWhen(false)] out Type implementType);
+    bool TryGetImplementType(string beanName, [MaybeNullWhen(false)] out Type implementType);
 
-        bool TryGetImplementType(Type beanType, [MaybeNullWhen(false)] out Type implementType);
-    }
+    bool TryGetImplementType(Type beanType, [MaybeNullWhen(false)] out Type implementType);
 }

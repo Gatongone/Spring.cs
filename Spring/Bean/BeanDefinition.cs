@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Spring
+namespace Spring;
+
+public struct BeanDefinition
 {
-    public struct BeanDefinition
-    {
-        public ScopeType scope;
-        public Type type;
-        public MethodInfo proxyFactory;
-    }
+    public ScopeType scope;
+    public Type type;
+    public MethodInfo proxyFactory;
 }

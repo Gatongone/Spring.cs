@@ -1,7 +1,6 @@
-﻿namespace Spring
+﻿namespace Spring;
+
+public interface IBeanInitializationPostprocessor
 {
-    public interface IBeanInitializationPostprocessor
-    {
-        void OnAfterInitialization(object bean, string? beanName);
-    }
+    void OnAfterInitialization(object bean, string? beanName);
 }

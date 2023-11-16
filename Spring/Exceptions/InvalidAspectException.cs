@@ -1,9 +1,3 @@
-using System;
+namespace Spring;
 
-namespace Spring
-{
-    public class InvalidAspectException : ScanningException
-    {
-        public InvalidAspectException(string message) : base(message) { }
-    }
-}
+public class InvalidAspectException(string message) : ScanningException(message);

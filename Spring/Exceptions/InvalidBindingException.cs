@@ -1,9 +1,5 @@
 ﻿using System;
 
-namespace Spring
-{
-    public class InvalidBindingException : Exception
-    {
-        public InvalidBindingException(string msg) : base(msg) { }
-    }
-}
+namespace Spring;
+
+public class InvalidBindingException(string msg) : Exception(msg);

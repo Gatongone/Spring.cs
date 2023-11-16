@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace Spring
+namespace Spring;
+
+public sealed class BindAttribute : Attribute
 {
-    public class BindAttribute : Attribute
-    {
-        private readonly Type m_ImplementType;
+    private readonly Type m_ImplementType;
 
-        public BindAttribute(Type implementType) => m_ImplementType = implementType;
+    public BindAttribute(Type implementType) => m_ImplementType = implementType;
 
-        public Type GetImplementType() => m_ImplementType;
-    }
+    public Type GetImplementType() => m_ImplementType;
 }

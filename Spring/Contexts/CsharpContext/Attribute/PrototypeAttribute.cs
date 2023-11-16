@@ -1,7 +1,3 @@
-namespace Spring
-{
-    public class PrototypeAttribute : ScopeAttribute
-    {
-        public PrototypeAttribute() : base(ScopeType.Prototype) { }
-    }
-}
+namespace Spring;
+
+public class PrototypeAttribute() : ScopeAttribute(ScopeType.Prototype);

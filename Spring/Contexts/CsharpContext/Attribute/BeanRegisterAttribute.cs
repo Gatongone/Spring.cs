@@ -1,6 +1,5 @@
 using System;
 
-namespace Spring
-{
-    public class BeanRegisterAttribute : Attribute { }
-}
+namespace Spring;
+
+public sealed class BeanRegisterAttribute : Attribute;

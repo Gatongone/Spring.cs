@@ -1,30 +1,29 @@
 ﻿using System;
 
-namespace Spring
+namespace Spring;
+
+/// <summary>
+/// The type information filtered during scanning assembly
+/// </summary>
+public interface ITypeScanningInfo
 {
     /// <summary>
-    /// The type information filtered during scanning assembly
+    /// Get assembly pattern
     /// </summary>
-    public interface ITypeScanningInfo
-    {
-        /// <summary>
-        /// Get assembly pattern
-        /// </summary>
-        string GetAssemblyPattern();
+    string GetAssemblyPattern();
 
-        /// <summary>
-        /// Get namespace pattern
-        /// </summary>
-        string GetNamespacePattern();
+    /// <summary>
+    /// Get namespace pattern
+    /// </summary>
+    string GetNamespacePattern();
 
-        /// <summary>
-        /// Get type pattern
-        /// </summary>
-        string GetTypePattern();
+    /// <summary>
+    /// Get type pattern
+    /// </summary>
+    string GetTypePattern();
 
-        /// <summary>
-        /// Is the Pattern of the Name and namespace of the type correct
-        /// </summary>
-        bool MatchType(Type type);
-    }
+    /// <summary>
+    /// Is the Pattern of the Name and namespace of the type correct
+    /// </summary>
+    bool MatchType(Type type);
 }

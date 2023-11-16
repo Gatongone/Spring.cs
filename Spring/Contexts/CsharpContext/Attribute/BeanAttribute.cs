@@ -1,16 +1,15 @@
 using System;
 
-namespace Spring
+namespace Spring;
+
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface)]
+public sealed class BeanAttribute : Attribute
 {
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface)]
-    public class BeanAttribute : Attribute
-    {
-        private readonly string m_Value;
+    private readonly string m_Value;
 
-        public BeanAttribute(string value) => m_Value = value;
+    public BeanAttribute(string value) => m_Value = value;
 
-        public BeanAttribute() { }
+    public BeanAttribute() { }
 
-        public string GetName() => m_Value;
-    }
+    public string GetName() => m_Value;
 }

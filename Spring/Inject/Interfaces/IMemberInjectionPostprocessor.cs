@@ -1,9 +1,8 @@
 ﻿using System.Reflection;
 
-namespace Spring
+namespace Spring;
+
+public interface IMemberInjectionPostprocessor
 {
-    public interface IMemberInjectionPostprocessor
-    {
-        void OnAfterInjection(MemberInfo member, object? bean, string? beanName);
-    }
+    void OnAfterInjection(MemberInfo member, object? bean, string? beanName);
 }

@@ -1,13 +1,12 @@
 using System;
 
-namespace Spring
+namespace Spring;
+
+public record CutpointAdvices
 {
-    public class CutpointAdvices
-    {
-        public Action beforeAdvice;
-        public Func<object,object> afterAdvice;
-        public Action finallyAdvice;
-        public Func<IMethodReference,object[],object> arroundAdvice;
-        public Func<Exception, object[], object?> catchAdvice;
-    }
+    public Action beforeAdvice;
+    public Func<object,object> afterAdvice;
+    public Action finallyAdvice;
+    public Func<IMethodReference,object[],object> arroundAdvice;
+    public Func<Exception, object[], object?> catchAdvice;
 }

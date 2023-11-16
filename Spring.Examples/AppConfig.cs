@@ -1,6 +1,4 @@
-﻿namespace Spring.Examples
-{
+﻿namespace Spring.Examples;
 
-    [Scanning("[Spring.Examples][Spring.Examples.Services][*]")]
-    public class AppConfig { }
-}
+[Scanning("[Spring.Examples][Spring.Examples.Services][*]")]
+public class AppConfig;

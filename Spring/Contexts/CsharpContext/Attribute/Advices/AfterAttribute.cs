@@ -1,8 +1,7 @@
 
-namespace Spring.Advices
+namespace Spring.Advices;
+
+public class AfterAttribute : AdviceAttribute
 {
-    public class AfterAttribute : AdviceAttribute
-    {
-        public AfterAttribute(string cutPoint) : base(cutPoint) { }
-    }
+    public AfterAttribute(string cutPoint) : base(cutPoint) { }
 }

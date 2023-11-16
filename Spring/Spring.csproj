@@ -4,7 +4,6 @@
         <Nullable>enable</Nullable>
         <LangVersion>12</LangVersion>
         <TargetFramework>net5.0</TargetFramework>
-        <AnalysisLevel>5.0-all</AnalysisLevel>
         <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     </PropertyGroup>
 

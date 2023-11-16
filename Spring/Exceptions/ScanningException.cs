@@ -1,9 +1,5 @@
 using System;
 
-namespace Spring
-{
-    public class ScanningException : Exception
-    {
-        public ScanningException(string msg) : base(msg) { }
-    }
-}
+namespace Spring;
+
+public class ScanningException(string msg) : Exception(msg);

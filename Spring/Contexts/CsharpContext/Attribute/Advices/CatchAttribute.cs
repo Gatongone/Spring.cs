@@ -1,7 +1,6 @@
-namespace Spring.Advices
+namespace Spring.Advices;
+
+public class CatchAttribute : AdviceAttribute
 {
-    public class CatchAttribute : AdviceAttribute
-    {
-        public CatchAttribute(string cutPoint) : base(cutPoint) { }
-    }
+    public CatchAttribute(string cutPoint) : base(cutPoint) { }
 }

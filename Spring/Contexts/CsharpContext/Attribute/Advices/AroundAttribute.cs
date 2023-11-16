@@ -1,7 +1,6 @@
-namespace Spring.Advices
+namespace Spring.Advices;
+
+public class AroundAttribute : AdviceAttribute
 {
-    public class AroundAttribute : AdviceAttribute
-    {
-        public AroundAttribute(string cutPoint) : base(cutPoint) { }
-    }
+    public AroundAttribute(string cutPoint) : base(cutPoint) { }
 }

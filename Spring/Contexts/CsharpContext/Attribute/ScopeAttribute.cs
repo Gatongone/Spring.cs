@@ -1,13 +1,9 @@
 ﻿using System;
 
-namespace Spring
-{
-    
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
-    public class ScopeAttribute : Attribute
-    {
-        public ScopeType scope { get; }
+namespace Spring;
 
-        public ScopeAttribute(ScopeType scopeType) => scope = scopeType;
-    }
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
+public class ScopeAttribute(ScopeType scope) : Attribute
+{
+    public readonly ScopeType scope = scope;
 }

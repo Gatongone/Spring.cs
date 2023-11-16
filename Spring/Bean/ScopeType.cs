@@ -1,8 +1,7 @@
-﻿namespace Spring
+﻿namespace Spring;
+
+public enum ScopeType
 {
-    public enum ScopeType
-    {
-        Singleton,
-        Prototype
-    }
+    Singleton,
+    Prototype
 }

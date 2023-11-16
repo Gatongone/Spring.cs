@@ -1,7 +1,6 @@
-﻿namespace Spring
+﻿namespace Spring;
+
+public interface IBeanResolver
 {
-    public interface IBeanResolver
-    {
-        IBeanDefinitionsCollection GetEnvironment();
-    }
+    IBeanDefinitionsCollection GetEnvironment();
 }

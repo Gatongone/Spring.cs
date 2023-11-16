@@ -1,7 +1,6 @@
-namespace Spring
+namespace Spring;
+
+public interface IMethodReference
 {
-    public interface IMethodReference
-    {
-        public object Invoke(params object[] args);
-    }
+    public object Invoke(params object[] args);
 }

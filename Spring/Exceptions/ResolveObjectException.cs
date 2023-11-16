@@ -1,9 +1,5 @@
 ﻿using System;
 
-namespace Spring
-{
-    public class ResolveObjectException : Exception
-    {
-        public ResolveObjectException(string msg) : base(msg) { }
-    }
-}
+namespace Spring;
+
+public class ResolveObjectException(string msg) : Exception(msg);

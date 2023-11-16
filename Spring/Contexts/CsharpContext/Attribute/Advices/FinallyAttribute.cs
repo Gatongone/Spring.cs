@@ -1,7 +1,6 @@
-namespace Spring.Advices
+namespace Spring.Advices;
+
+public class FinallyAttribute : AdviceAttribute
 {
-    public class FinallyAttribute : AdviceAttribute
-    {
-        public FinallyAttribute(string cutPoint) : base(cutPoint) { }
-    }
+    public FinallyAttribute(string cutPoint) : base(cutPoint) { }
 }

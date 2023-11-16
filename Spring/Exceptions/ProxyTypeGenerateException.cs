@@ -1,9 +1,5 @@
 ﻿using System;
 
-namespace Spring
-{
-    public class ProxyTypeGenerateException : Exception
-    {
-        public ProxyTypeGenerateException(string msg) : base(msg) { }
-    }
-}
+namespace Spring;
+
+public class ProxyTypeGenerateException(string msg) : Exception(msg);

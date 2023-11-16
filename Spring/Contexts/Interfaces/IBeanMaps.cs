@@ -1,7 +1,6 @@
-namespace Spring
+namespace Spring;
+
+public interface IBeanMaps<in TBeanId>
 {
-    public interface IBeanMaps<in TBeanId>
-    {
-        object GetBean(TBeanId beanId);
-    }
+    object GetBean(TBeanId beanId);
 }

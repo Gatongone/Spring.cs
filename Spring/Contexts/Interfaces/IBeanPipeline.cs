@@ -1,11 +1,10 @@
 ﻿using System;
 
-namespace Spring
+namespace Spring;
+
+public interface IBeanPipeline
 {
-    public interface IBeanPipeline
-    {
-        object GenerateProxy(Type bean);
-        object RequirePrototypeBean(string beanName, Type type, BeanDefinition beanDefinition, params object[] parameters);
-        object RequireSingletonBean(string beanName, Type type, BeanDefinition beanDefinition);
-    }
+    object GenerateProxy(Type bean);
+    object RequirePrototypeBean(string beanName, Type type, BeanDefinition beanDefinition, params object[] parameters);
+    object RequireSingletonBean(string beanName, Type type, BeanDefinition beanDefinition);
 }

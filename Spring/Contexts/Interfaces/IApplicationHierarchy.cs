@@ -1,7 +1,6 @@
-﻿namespace Spring
+﻿namespace Spring;
+
+public interface IApplicationHierarchy : IApplicationContext
 {
-    public interface IApplicationHierarchy : IApplicationContext
-    {
-        IApplicationHierarchy GetImplement();
-    }
+    IApplicationHierarchy GetImplement();
 }

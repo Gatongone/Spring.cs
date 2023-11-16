@@ -1,7 +1,3 @@
-namespace Spring
-{
-    public class SingletonAttribute : ScopeAttribute
-    {
-        public SingletonAttribute() : base(ScopeType.Singleton) { }
-    }
-}
+namespace Spring;
+
+public sealed class SingletonAttribute() : ScopeAttribute(ScopeType.Singleton);
